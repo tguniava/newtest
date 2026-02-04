@@ -40,15 +40,17 @@ for (let num=3; num<=8; num++) {
 
 let fruits = ["Apple", "Banana", "Orange"];
 
-for (let num = 0; num < fruits.length; num++) {
+for (let num=0; num<fruits.length; num++) {
     console.log(fruits[num]);
 }
 
 
 //7. დაამატეთ fruits მასივის თავში Grapes, ბოლოში Pineapples 
 // დაბეჭდეთ fruits 
-let fruit = ["Grapes", "Apple", "Banana", "orange", "Pineapples"]; 
-console.log (fruit);
+
+fruits.unshift ('Grapes');
+fruits.push ("Pineapples");
+console.log (fruits);
 
 
 //8. დაბეჭდეთ 1 დან 34 მდე რიცხვების ჯამი 
